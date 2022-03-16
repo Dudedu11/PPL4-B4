@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grade_pendidikans",
+  "info": {
+    "singularName": "grade-pendidikan",
+    "pluralName": "grade-pendidikans",
+    "displayName": "Grade_pendidikan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_grade": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "grade": {
+      "type": "string",
+      "required": true
+    },
+    "pendidikan": {
+      "type": "string",
+      "required": true
+    },
+    "grade_pendidikan": {
+      "type": "string",
+      "required": true
+    },
+    "pegawais": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pegawai.pegawai",
+      "mappedBy": "grade_pendidikan"
+    }
+  }
+}
