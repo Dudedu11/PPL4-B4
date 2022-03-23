@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proyeksi_jabatans",
+  "info": {
+    "singularName": "proyeksi-jabatan",
+    "pluralName": "proyeksi-jabatans",
+    "displayName": "Proyeksi_jabatan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_unit": {
+      "type": "integer",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "required": true
+    },
+    "jenjang": {
+      "type": "string",
+      "required": true
+    },
+    "grade": {
+      "type": "string",
+      "required": true
+    },
+    "jabatan": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
