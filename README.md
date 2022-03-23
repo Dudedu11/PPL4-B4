@@ -1,2 +1,2 @@
 # PPL4-B4
-John punya
+Merupakan git kelompok B4
