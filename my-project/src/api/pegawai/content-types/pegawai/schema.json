@@ -53,10 +53,10 @@
       "target": "api::direktorat.direktorat",
       "inversedBy": "pegawais"
     },
-    "direktorats": {
+    "proyeksi_jabatans": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::direktorat.direktorat",
+      "target": "api::proyeksi-jabatan.proyeksi-jabatan",
       "mappedBy": "pegawais"
     }
   }

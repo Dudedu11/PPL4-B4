@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "id_direktorat": {
-      "unique": true,
-      "required": true,
-      "type": "integer"
-    },
     "divisi": {
       "type": "string",
       "required": true
@@ -28,14 +23,14 @@
     "direktorat": {
       "type": "string"
     },
-    "pegawais": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::pegawai.pegawai",
-      "inversedBy": "direktorats"
-    },
     "Sub_bidang": {
       "type": "string"
+    },
+    "pegawais": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pegawai.pegawai",
+      "mappedBy": "direktorat"
     }
   }
 }

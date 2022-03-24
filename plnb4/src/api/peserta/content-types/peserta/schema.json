@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pesertas",
+  "info": {
+    "singularName": "peserta",
+    "pluralName": "pesertas",
+    "displayName": "peserta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pegawais": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pegawai.pegawai"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pegawais",
+  "info": {
+    "singularName": "pegawai",
+    "pluralName": "pegawais",
+    "displayName": "pegawai",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nip": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "tempat_lahir": {
+      "type": "string",
+      "required": true
+    },
+    "no_hp": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ],
+      "required": true
+    },
+    "Relligion": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "grade_pendidikan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::grade-pendidikan.grade-pendidikan",
+      "inversedBy": "pegawais"
+    },
+    "direktorat": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::direktorat.direktorat",
+      "inversedBy": "pegawais"
+    },
+    "proyeksi_jabatans": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::proyeksi-jabatan.proyeksi-jabatan",
+      "inversedBy": "pegawais"
+    },
+    "tanggal_lahir": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
