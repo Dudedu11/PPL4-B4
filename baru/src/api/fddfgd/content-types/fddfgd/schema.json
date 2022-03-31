@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fddfgds",
+  "info": {
+    "singularName": "fddfgd",
+    "pluralName": "fddfgds",
+    "displayName": "fddfgd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cxd": {
+      "type": "string"
+    }
+  }
+}
