@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "johns",
+  "info": {
+    "singularName": "john",
+    "pluralName": "johns",
+    "displayName": "John"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Dudedu": {
+      "type": "string"
+    }
+  }
+}

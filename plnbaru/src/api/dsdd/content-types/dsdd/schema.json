@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dsdds",
+  "info": {
+    "singularName": "dsdd",
+    "pluralName": "dsdds",
+    "displayName": "dsdd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ascsa": {
+      "type": "string"
+    }
+  }
+}

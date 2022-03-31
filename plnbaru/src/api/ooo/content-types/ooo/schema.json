@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ooos",
+  "info": {
+    "singularName": "ooo",
+    "pluralName": "ooos",
+    "displayName": "ooo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sadadas": {
+      "type": "string"
+    },
+    "sad": {
+      "type": "string"
+    }
+  }
+}
